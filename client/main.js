@@ -124,7 +124,7 @@ Template.items.events({
    // use jquery to hide the item component
    // then remove it at the end of the animation
    $("#"+item_id).hide('slow', function(){
-    items.remove({"_id":item_id});
+    Items.remove({"_id":item_id});
    })  
 }, 
 'click .js-rate-item':function(event){
